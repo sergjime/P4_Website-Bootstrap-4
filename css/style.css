@@ -1,1 +1,5 @@
 /* Aquí irán los estilos de la web */
+
+.btn-secondary{
+    border-radius: 0;
+}
