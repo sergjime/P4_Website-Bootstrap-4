@@ -1,10 +1,23 @@
 /* Aquí irán los estilos de la web */
 body {
     font-family: Arial;
+    background-color: #F4F4F4;
 }
 
 * {
     box-sizing: border-box;
+}
+
+header, footer{
+    background-color: #BA470C;
+}
+
+#uno, .btn-secondary{
+    background-color: #EB6019;
+}
+
+a{
+    color: white;
 }
 
 form.example input[type=text] {
