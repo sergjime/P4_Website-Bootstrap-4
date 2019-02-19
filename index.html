@@ -12,42 +12,70 @@
     </head>
     <body>
         <div class="container">
-            <!------------------------ HEADER ------------------------>
+            <!---------------------- HEADER ---------------------->
             <header>
                 <div class="row justify-content-center p-3">                
-                    <div class="logo col-sm-4 mx-auto">
+                    <div class="logo col-4 mx-auto">
                         <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
                     </div>
-                    <div class="login col-sm-4 mx-auto">
+                    <div class="login col-4 mx-auto">
                         <a href="#"><h5>Iniciar sesión/Registrarse</h5></a>
                     </div>
-                    <div class="buscador col-sm-4 mx-auto">
+                    <div class="buscador col-4 mx-auto">
                         <form class="example">
                             <input type="text" placeholder="Buscar..">
                             <button><i class="fas fa-search"></i></button>
                         </form>
                     </div>
                 </div>
-                <nav class="navbar navbar-expand-sm bg-dark navbar-dark top">
-                    <div class="collapse navbar-collapse d-flex justify-content-center" id="uno">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#" class="btn btn-secondary">Componentes</a></li>
-                            <li class="nav-item"><a href="#" class="btn btn-secondary">Ordenadores</a></li>
-                            <li class="nav-item"><a href="#" class="btn btn-secondary">Smartphones</a></li>
-                            <li class="nav-item"><a href="#" class="btn btn-secondary">Periféricos</a></li>
-                            <li class="nav-item"><a href="#" class="btn btn-secondary">Audio/Foto/Vídeo</a></li>
-                            <li class="nav-item"><a href="#" class="btn btn-secondary">Impresoras</a></li>
-                            <li class="nav-item"><a href="#" class="btn btn-secondary">Redes</a></li>
-                            <li class="nav-item"><a href="#" class="btn btn-secondary">Cables</a></li>
+            <!---------------------- NAVBAR ---------------------->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Componentes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ordenadores</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Smartphones
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Huawei</a>
+                                    <a class="dropdown-item" href="#">Samsung</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Apple</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Periféricos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Audio/Foto/Vídeo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Impresoras</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Redes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cables</a>
+                            </li>
                         </ul>
                     </div>
-                </nav>   
+                </nav>
             </header>
             <!------------------------ CONTENT ------------------------>
             <div class="contenido p-3">
                 <p>PRODUCTOS DESTACADOS DE LA SEMANA</p>
                 <div class="row">
-                    <div class="col-sm-7">
+                    <div class="col-7">
                         <!---------------- CAROUSEL ---------------->
                         <div class="bd-example">
                             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -58,21 +86,21 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="images/pc1.png" class="d-block w-100" alt="Producto 1">
+                                        <img src="images/pc1.png" class="d-block w-100 img-fluid" alt="Producto 1">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>Primer producto</h5>
                                             <p>Descripción del primer producto</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="images/pc2.png" class="d-block w-100" alt="Producto 2">
+                                        <img src="images/cable.jpg" class="d-block w-100 img-fluid" alt="Producto 2">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>Segundo producto</h5>
                                             <p>Descripción del segundo producto</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="images/pc3.jpg" class="d-block w-100" alt="Producto 3">
+                                        <img src="images/portatil.jpg" class="d-block w-100 img-fluid" alt="Producto 3">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>Tercer producto</h5>
                                             <p>Descripción del tercer producto</p>
@@ -90,13 +118,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <p>PUBLICIDAD</p>
                     </div>
                 </div>
-                <div class="col-sm-12 mx-auto">
+                <div class="col-md-12 mx-auto">
                     <form class="form-inline">
-                        <div class="form-group mx-sm-auto mb-2">
+                        <div class="form-group mx-md-auto mb-2">
                             <label for="staticEmail2" class="sr-only">Email</label>
                             <input type="text" class="form-control" id="staticEmail2" placeholder="Email">
                             <button type="submit" class="btn btn-primary ml-2">Suscribir</button>
@@ -107,17 +135,17 @@
             <!------------------------ FOOTER ------------------------>
             <footer>
                 <div class="row justify-content-center p-3">                
-                    <div class="quienes col-sm-4 mx-auto">
+                    <div class="quienes col-md-4 mx-auto">
                         <a href="#"><p>Quienes somos</p></a>
                         <a href="#"><p>Contacto</p></a>
                         <a href="#"><p>Política de cookies</p></a>
                     </div>
-                    <div class="trabaja col-sm-4 mx-auto">
+                    <div class="trabaja col-md-4 mx-auto">
                         <a href="#"><p>Trabaja con nosotros</p></a>
                         <a href="#"><p>Preguntas frecuentes</p></a>
                         <a href="#"><p>Política de seguridad</p></a>
                     </div>
-                    <div class="col-sm-4 mx-auto d-flex align-items-sm-center justify-content-around">
+                    <div class="col-md-4 mx-auto d-flex align-items-md-center justify-content-around">
                         <i class="btn btn-primary fab fa-facebook-square"></i>
                         <i class="btn btn-primary fab fa-twitter-square"></i>
                         <i class="btn btn-primary fab fa-instagram"></i>
