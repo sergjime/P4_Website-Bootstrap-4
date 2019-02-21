@@ -1,7 +1,9 @@
 /* Aquí irán los estilos de la web */
 body {
     font-family: Arial;
-    background-color: #F4F4F4;
+    background: url(../images/fondo.jpg) no-repeat center center fixed;
+	background-size: cover;
+	z-index: -1;
 }
 
 * {
@@ -10,6 +12,11 @@ body {
 
 header, footer{
     background-color: #BA470C;
+}
+
+.bg-light{
+    padding: 1%;
+    border-radius: 20px;
 }
 
 #uno, .btn-secondary{
