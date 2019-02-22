@@ -23,10 +23,6 @@ header, footer{
     background-color: #EB6019;
 }
 
-a{
-    color: white;
-}
-
 form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
