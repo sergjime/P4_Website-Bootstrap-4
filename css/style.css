@@ -71,3 +71,12 @@ form.example{
     align-content: center;
     flex-direction: column;
 }
+
+.imagen{
+    width: 50px;
+    height: 50px;
+}
+
+.figure-img{
+    width: 250px;
+}
