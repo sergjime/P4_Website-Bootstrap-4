@@ -1,9 +1,7 @@
 /* Aquí irán los estilos de la web */
 body {
     font-family: Arial;
-    background: url(../images/fondo.jpg) no-repeat center center fixed;
-	background-size: cover;
-	z-index: -1;
+    background-color: #fcfcfc;
 }
 
 * {
@@ -16,7 +14,13 @@ header, footer{
 
 .bg-light{
     padding: 1%;
-    border-radius: 20px;
+    background-color: white;
+}
+
+li:hover {
+    border-color: #9F9F9F;
+    background: linear-gradient(to top,  #BA470C, #fcfcfc);
+    color: black;
 }
 
 .btn-secondary{
@@ -82,5 +86,5 @@ form.example{
 }
 
 .contenido{
-    width: 70%;
+    width: 95%;
 }
