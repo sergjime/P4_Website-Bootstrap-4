@@ -17,7 +17,7 @@ header, footer{
     background-color: white;
 }
 
-li:hover {
+li a.nav-link:hover {
     border-color: #9F9F9F;
     background: linear-gradient(to top,  #BA470C, #fcfcfc);
     color: black;
@@ -74,6 +74,9 @@ form.example{
     justify-content: center;
     align-content: center;
     flex-direction: column;
+}
+.quienes a, .trabaja a {
+    color: white;
 }
 
 .imagen{
